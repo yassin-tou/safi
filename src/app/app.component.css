@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+header{
+    margin-bottom: 100px;
+}
+nav,footer{
+    background-color: lightgreen;
+}
+.pointer_cursor{
+    cursor: pointer;
+}
+.equipment{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+}
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+footer>span{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+i{
+    color: white;
+    font-size: x-large;
+}
